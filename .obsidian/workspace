@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "aba8008c0875e86b",
+    "type": "split",
+    "children": [
+      {
+        "id": "546041c8db029a92",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Get Started.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "141d87c9ca7ad169",
+    "type": "split",
+    "children": [
+      {
+        "id": "aafbd24a8daacc5d",
+        "type": "tabs",
+        "dimension": 62.34042553191489,
+        "children": [
+          {
+            "id": "2d489bd1f8782e4e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9fa1994e789f56e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "24e301fbeff034c5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "2a49fc8a921dc6b6",
+        "type": "tabs",
+        "dimension": 37.659574468085104,
+        "children": [
+          {
+            "id": "eb43068898edb177",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Get Started.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.28548580833378195,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5
+  },
+  "right": {
+    "id": "68c91c329a5697a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "334065e48ef6fa05",
+        "type": "tabs",
+        "dimension": 52.32067510548522,
+        "children": [
+          {
+            "id": "7caf5699e4fbf3fd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9da8299e40963721",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "3f7ed5602b40f948",
+        "type": "tabs",
+        "dimension": 47.67932489451478,
+        "children": [
+          {
+            "id": "373b79f349f1428c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Get Started.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57ce4317fa2b249e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 382.5
+  },
+  "active": "546041c8db029a92",
+  "lastOpenFiles": [
+    "Get Started.md",
+    "README.md",
+    "Notes/Untitled.md",
+    "Notes/Untitled 1.md",
+    "Utility/Plugins.md",
+    "Notes/Workbench Plugin.md",
+    "Notes/Typewriter Mode Plugin.md",
+    "Notes/Templater Plugin.md",
+    "Notes/Sliding panes Plugin.md",
+    "Notes/Review Plugin.md"
+  ]
+}

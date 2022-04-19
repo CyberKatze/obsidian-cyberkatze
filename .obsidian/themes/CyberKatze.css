@@ -1,0 +1,344 @@
+/** vim:fileencoding=utf-8:foldmethod=marker 
+*/
+
+/* Color & Fonts {{{*/
+
+/* root {{{ */
+:root
+{
+    --my-font:        'Caskaydia';
+    --font-monospace: 'Caskaydia';
+    --default-font:   'Caskaydia';
+    --dark0:          #222436;
+    --dark0-hard:     #282a41;
+    --dark1:          #1e2030;
+    --dark1-hard:     #151823;
+    --dark2:          #191a2a;
+    --dark3:          #131421;
+
+    --light0-hard:    #f9f5d7;
+    --light0:         #fbf1c7;
+    --light0-soft:    #f2e5bc;
+    --light1:         #ebdbb2;
+    --light2:         #d5c4a1;
+    --light3:         #bdae93;
+    --light4:         #a89984;
+
+    --bright-yellow:  #e0af68;
+    --bright-orange:  #ff9e64;
+    --bright-red:     #f7768e;
+    --bright-purple:  #bb9af7;
+    --bright-blue:    #2ac3de;
+    --bright-aqua:    #8ec07c;
+    --bright-green:   #9ece6a;
+
+    --neutral-yellow: #c59752;
+    --neutral-orange: #d67b46;
+    --neutral-red:    #db4b4b;
+    --neutral-purple: #9d7cd8;
+    --neutral-blue:   #0db9d7;
+    --neutral-aqua:   #689d6a;
+    --neutral-green:  #77a545;
+
+    --faded-yellow:   #ad8240;
+    --faded-orange:   #ad5c2d;
+    --faded-red:      #a82929;
+    --neutral-purple: #714ead;
+    --faded-blue:     #3d59a1;
+    --faded-aqua:     #427b58;
+    --faded-green:    #527929;
+}
+/* }}} */
+
+/* Dark Theme {{{ */
+.theme-dark
+{
+    --background-primary:         var(--dark0);
+    --background-primary-alt:     var(--dark0-hard);
+    --background-secondary:       var(--dark1);
+    --background-secondary-alt:   var(--dark1-hard);
+    --background-tag:             var(--dark3);
+    --background-quick:           var(--dark2);
+    --background-modifier-cover:rgba(0, 0, 0, 0.8);
+    --background-modifier-border: var(--dark1);
+    --background-modifier-form-field: var(--dark2);
+    --background-modifier-form-field-highlighted: var(--dark1);
+    --text:                     #c0cdf3;
+    --text-faint:               #c0cdf3;
+    --text-normal:              #c8d3f5;
+    --text-accent:              #50c4fa;
+    --text-accent-hover:        rgba(80, 196, 250, 0.8);
+    --text-highlight-bg:        rgba(252, 167, 234, 0.2);
+    --text-muted:               #a9b8e8;
+    --text-on-accent:           #e2e8fa;
+    --text-selection:           rgba(252, 167, 234, 0.2);
+    --text-tag:                 #7a88cf;
+    --text-error:               #ff98a4;
+    --text-title-h1:              var(--neutral-red);
+    --text-title-h2:              var(--bright-orange);
+    --text-title-h3:              var(--bright-yellow);
+    --text-title-h4:              var(--bright-green);
+    --text-title-h5:              var(--bright-blue);
+    --text-title-h6:              var(--bright-purple);
+    --text-link:                  var(--bright-blue);
+    --text-mark:                  var(--neutral-yellow);
+    --pre-code:                   var(--dark0);
+    --interactive-hover:        #2f334d;
+    --interactive-accent:       #444a73;
+    --interactive-accent-rgb:     68, 74, 115;
+    --interactive-accent-hover: #828bb8;
+    --scrollbar-bg:               inherit;
+    --scrollbar-thumb-bg:       #2f334d;
+    --scrollbar-active-thumb-bg:#444a73;
+    --table-line:               #828bb8;
+    --inline-code:                var(--bright-blue);
+    --code-block:                 var(--bright-blue);
+    --vim-cursor:                 var(--bright-orange);
+}
+/* }}} */
+
+/* Light Theme {{{ */
+.theme-light
+{
+    --background-primary:         var(--light0);
+    --background-primary-alt:     var(--light0);
+    --background-secondary:       var(--light0-hard);
+    --background-secondary-alt:   var(--light1);
+    --text-normal:                var(--dark0);
+    --text-faint:                 var(--dark3);
+    --text-title-h1:              var(--faded-red);
+    --text-title-h2:              var(--faded-orange);
+    --text-title-h3:              var(--faded-yellow);
+    --text-title-h4:              var(--faded-green);
+    --text-title-h5:              var(--faded-aqua);
+    --text-link:                  var(--neutral-blue);
+    --text-a:                     var(--neutral-orange);
+    --text-a-hover:               var(--neutral-blue);
+    --text-mark:                  var(--neutral-yellow);
+    --pre-code:                   var(--light1);
+    --text-highlight-bg:          var(--bright-aqua);
+    --interactive-accent:         var(--neutral-orange);
+    --interactive-before:         var(--light4);
+    --background-modifier-border: var(--light2);
+    --text-accent:                var(--neutral-orange);
+    --interactive-accent-rgb:     var(--neutral-orange);
+    --inline-code:                var(--neutral-blue);
+    --vim-cursor:                 var(--neutral-orange);
+    --text-selection:             rgba(189, 174, 147, 0.5); /* light3 */
+}
+/* }}} */
+
+/* }}} */
+
+/* Worksapce ribbon, Status-bar, workspace-leaf {{{ */
+
+.status-bar,
+.workspace-split{
+  border-right: 1px solid var(--background-secondary-alt);
+}
+
+.workspace-ribbon.mod-right.is-collapsed {
+  border-left: none;
+}
+
+.status-bar{
+  background-color: var(--background-secondary-alt);
+  line-height: 30px;
+  max-height: 30px;
+  padding: 0px 20px;
+
+}
+
+.workspace-split.mod-left-split .workspace-tabs,
+.workspace-split.mod-left-split .workspace-tabs .workspace-leaf,
+.workspace-split.mod-right-split .workspace-tabs .workspace-leaf,
+.workspace-leaf-resize-handle {
+  background-color: var(--background-secondary);
+}
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle{
+height: 5px;
+}
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle{
+  width: 5px;
+}
+/* }}} */
+
+/* Workspace Tabs {{{ */
+.workspace-tab-container-before,
+.workspace-tab-container-after {
+  display: none;
+}
+
+
+.workspace-split .workspace-tabs:not(:first-child) {
+  border-top: 1px solid var(--background-secondary-alt);
+}
+.workspace-tabs{
+  background-color: var(--background-secondary);
+}
+.workspace-tab-header-container {
+  height: 40px;
+  background-color: var(--background-secondary);
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.workspace-tab-container-inner {
+  border-radius: 10px;
+  background-color: var(--background-secondary-alt) !important;
+  border: 2px solid var(--background-secondary-alt);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke-width: 0;
+}
+
+.workspace-tab-header {
+  background-color: transparent;
+  border-radius: 10px !important;
+}
+
+.workspace-tab-header-inner {
+  padding: 10px;
+}
+
+.workspace-tab-header-inner-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workspace-tab-header.is-before-active,
+.workspace-tab-header.is-after-active {
+  background-color: transparent;
+}
+.workspace-tab-header.is-before-active .workspace-tab-header-inner,
+.workspace-tab-header.is-after-active .workspace-tab-header-inner {
+  background-color: transparent;
+}
+/* }}}
+
+/*File Explorer {{{ 
+class="workspace-leaf-content" data-type="file-explorer"
+*/
+
+/* Folders */
+.mod-root > .nav-folder-title {
+  display: none;
+}
+
+.nav-folder-children{
+  padding-left: 10px;
+}
+
+.nav-file-title.is-active {
+  background-color: var(--interactive-accent);
+}
+
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: var(--interactive-hover);
+}
+
+.nav-folder-title.is-being-dragged-over {
+  background-color: var(--interactive-hover);
+  border: 1px solid var(--interactive-accent);
+}
+
+.nav-folder-collapse-indicator {
+  background-color: unset !important;
+}
+
+.nav-folder-children > .nav-file,
+.nav-folder-children > .nav-folder {
+  border-left: 1px solid var(--interactive-hover);
+}
+
+.mod-root > .nav-folder-children > .nav-file,
+.mod-root > .nav-folder-children > .nav-folder {
+  border-left: none;
+}
+
+/* Folder & File Icons  {{{*/
+
+/* Classic File Icon */
+.nav-folder-children .nav-file-title-content:first-child::before{
+  content: "\f713";
+  transform: none;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: -0.1em;
+  margin-right: 10px;
+}
+
+/* Classic Folder Icon */
+.nav-folder .nav-folder-title .nav-folder-title-content::before {
+  content: "\fc6e";
+  opacity: .85;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: -0.1em;
+  margin-right: 15px;
+}
+/* Classic  Open Folder Icon */
+.nav-folder.is-collapsed .nav-folder-title .nav-folder-title-content::before {
+  content: "\f74a";
+}
+/* Journal Folder Icon */
+.nav-folder > .nav-folder-title[data-path="Journal"] .nav-folder-title-content::before {
+  content: "\fd2c";
+  font-size: 22px;
+  color: var(--bright-purple);
+}
+/* Notes Folder Icon */
+.nav-folder > .nav-folder-title[data-path="Notes"] .nav-folder-title-content::before {
+  content: "\f831";
+  font-size: 22px;
+  color: var(--bright-blue);
+}
+/* Media Folder Icon */
+.nav-folder > .nav-folder-title[data-path="Media"] .nav-folder-title-content::before {
+  content: "\f74c";
+  font-size: 22px;
+  color: var(--bright-orange);
+}
+
+/* Templates Folder Icon */
+.nav-folder > .nav-folder-title[data-path="Templates"] .nav-folder-title-content::before {
+  content: "\f756";
+  font-size: 22px;
+  color: var(--bright-green);
+}
+/* Utility Folder Icon */
+.nav-folder > .nav-folder-title[data-path="Utility"] .nav-folder-title-content::before {
+  content: "\e5fc";
+  font-size: 22px;
+  color: var(--bright-red);
+}
+/* Journal File Icon */
+.nav-folder-children .nav-file .nav-file-title[data-path^="Journal"] .nav-file-title-content:first-child::before{
+  content: "\f5f4";
+  color: var(--bright-purple);
+}
+/* Notes File Icon */
+.nav-folder-children .nav-file .nav-file-title[data-path^="Notes"] .nav-file-title-content:first-child::before{
+  content: "\f718";
+  color: var(--bright-blue);
+}
+/* Template File Icon */
+.nav-folder-children .nav-file .nav-file-title[data-path^="Template"] .nav-file-title-content:first-child::before{
+  content: "\fc50";
+  color: var(--bright-green);
+}
+/* Utility File Icon */
+.nav-folder-children .nav-file .nav-file-title[data-path^="Utility"] .nav-file-title-content:first-child::before{
+  content: "\f992";
+  color: var(--bright-red);
+}
+
+/* }}} */
+
+/* }}} */
+

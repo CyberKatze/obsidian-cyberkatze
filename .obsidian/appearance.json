@@ -1,0 +1,8 @@
+{
+  "baseFontSize": 14,
+  "cssTheme": "CyberKatze",
+  "enabledCssSnippets": [
+    "tags",
+    "font"
+  ]
+}
