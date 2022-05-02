@@ -6,5 +6,8 @@
   "attachmentFolderPath": "Media",
   "newFileLocation": "folder",
   "newFileFolderPath": "Notes",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "tabSize": 2,
+  "useTab": true,
+  "showLineNumber": false
 }
