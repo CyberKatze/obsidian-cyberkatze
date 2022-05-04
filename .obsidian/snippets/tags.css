@@ -1,29 +1,68 @@
-tag {
-  background-color: var(--text-accent);
-  border: none;
-  color: white;
-  font-size: 11px;
-  padding: 1px 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0px 0px;
-  cursor: pointer;
-  border-radius: 14px;
+
+.tag[href="#drafting"] {
+  font-size: 0;
+  padding: 0;
 }
-.tag:hover {
-color: white;
-background-color: var(--text-accent-hover);
+.tag[href="#drafting"]:after {
+  font-size: var(--font-tag-preview-size);
+  background-color: #131421;
+  border-radius: inherit;
+  font-weight: 900;
+  padding: 3px 8px;
+  content: "◩ DRAFTING";
 }
-.tag[href^="#obsidian"] {
-  background-color: #4d3ca6;
+
+.tag[href="#complete"] {
+  font-size: 0;
+  padding: 0;
 }
-.tag[href^="#important"] {
-  background-color: red;
+.tag[href="#complete"]:after {
+  font-size: var(--font-tag-preview-size);
+  content: "◼ COMPLETE";
+  background-color: #131421;
+  border-radius: inherit;
+  font-weight: 900;
+  padding: 3px 8px;
 }
-.tag[href^="#complete"] {
-  background-color: green;
+
+.tag[href="#archived"] {
+  font-size: 0;
+  padding: 0;
 }
-.tag[href^="#inprogress"] {
-  background-color: orange;
+.tag[href="#archived"]:after {
+  font-size: var(--font-tag-preview-size);
+  background-color: #131421;
+  padding: 3px 8px;
+  border-radius: inherit;
+  font-weight: 900;
+  content: "◻ ARCHIVED";
+}
+
+.tag[href="#seedling"] {
+  font-size: 0;
+  padding: 0;
+}
+.tag[href="#seedling"]:after {
+  font-size: var(--font-tag-preview-size);
+  content: "🌱 SEEDLING";
+  background-color: #131421;
+  padding: 3px 8px;
+  border-radius: inherit;
+  font-weight: 900;
+}
+
+ .markdown-preview-view a.tag[href="#evergreen"] {
+  font-size: 0;
+  padding: 0;
+}
+.tag[href="#evergreen"]:after {
+  font-size: var(--font-tag-preview-size);
+  background-color: #131421;
+  padding: 3px 8px;
+  border-radius: inherit;
+  font-weight: 900;
+  content: "🌲 EVERGREEN";
+}
+.tag:hover:after{
+  background-color: var(--background-secondary);
 }
