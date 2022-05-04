@@ -29,12 +29,13 @@
     --bright-red:     #f7768e;
     --bright-purple:  #bb9af7;
     --bright-blue:    #2ac3de;
-    --bright-aqua:    #8ec07c;
+    --bright-cyan:    #86e1fc;
+    --bright-aqua:    #a2db8d;
     --bright-green:   #9ece6a;
 
     --neutral-yellow: #c59752;
     --neutral-orange: #d67b46;
-    --neutral-red:    #db4b4b;
+    --neutral-red:    #ff5555;
     --neutral-purple: #9d7cd8;
     --neutral-blue:   #0db9d7;
     --neutral-aqua:   #689d6a;
@@ -47,10 +48,26 @@
     --faded-blue:     #3d59a1;
     --faded-aqua:     #427b58;
     --faded-green:    #527929;
+
+  --font-editor-size: 1em;
+  --font-editor-linenumbers-size: medium;
+  --font-h1-size: 2em;
+  --font-h2-size: 1.8em;
+  --font-h3-size: 1.6em;
+  --font-h4-size: 1.4em;
+  --font-h5-size: 1.2em;
+  --font-h6-size: 1em;
+  --font-math-preview-size: 1.126em;
+  --font-tag-preview-size: 0.9rem;
+  --font-hover-preview-size: 0.9em;
+  --font-prompts-size: 1em;
+  --font-todoist-title-size: 1em;
+  --font-todoist-metadata-size: small;
+  font-weight: 500;
 }
 /* }}} */
 
-/* Dark Theme {{{ */
+/* Dark Thezme {{{ */
 .theme-dark
 {
     --background-primary:         var(--dark0);
@@ -74,6 +91,7 @@
     --text-selection:           rgba(252, 167, 234, 0.2);
     --text-tag:                 #7a88cf;
     --text-error:               #ff98a4;
+    --accent-color:             #7aa2f7;
     --text-title-h1:              var(--neutral-red);
     --text-title-h2:              var(--bright-orange);
     --text-title-h3:              var(--bright-yellow);
