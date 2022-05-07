@@ -114,6 +114,7 @@
     --inline-code:                var(--bright-blue);
     --code-block:                 var(--bright-blue);
     --vim-cursor:                 var(--bright-orange);
+    --indentation-guide:          var(--table-line);
 }
 /* }}} */
 
@@ -266,11 +267,7 @@ a.tag,
 .markdown-preview-view ol ul {
   padding-inline-start: 2rem;
 }
-.markdown-preview-view ul:not(.contains-task-list) ul:not(.contains-task-list) {
-  border-left: 1px solid rgba(122, 136, 207, 0.25);
-  margin-left: -12px;
-  padding-inline-start: 42px;
-}
+
 .markdown-preview-view ul li,
 .markdown-preview-view ol li {
   margin: 5px 0;
@@ -292,11 +289,11 @@ a.tag,
 .markdown-preview-view .list-collapse-indicator {
   color: var(--bright-orange);
   padding:0;
-  margin-left: -2.3em;
+  margin-left: -2.4em;
 }
 svg.right-triangle{
-  width: .35em;
-  height: .35em;
+  width: .45em;
+  height: .45em;
 }
 .markdown-preview-view li > p {
   display: inline;
@@ -495,7 +492,12 @@ svg.right-triangle{
   font-style: normal;
   color: var(--bright-purple);
 }
-.cm-s-obsidian .HyperMD-quote,
+
+.cm-s-obsidian.is-live-preview div.HyperMD-quote.cm-line {
+  border-color: var(--bright-purple);
+  border-left-width: 3px;
+  color: var(--bright-purple);
+}
 .markdown-preview-view blockquote {
   border: unset;
   border-left: 3px solid var(--bright-purple);
