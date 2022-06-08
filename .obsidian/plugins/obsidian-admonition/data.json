@@ -2,15 +2,11 @@
   "userAdmonitions": {},
   "syntaxHighlight": false,
   "copyButton": false,
-  "version": "7.0.4",
+  "version": "9.0.3",
   "autoCollapse": false,
   "defaultCollapseType": "open",
-  "syncLinks": true,
   "injectColor": true,
   "parseTitles": true,
-  "allowMSSyntax": true,
-  "msSyntaxIndented": true,
-  "livePreviewMS": true,
   "dropShadow": true,
   "hideEmpty": false,
   "open": {
@@ -21,5 +17,12 @@
   },
   "icons": [],
   "useFontAwesome": true,
-  "rpgDownloadedOnce": false
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.55f3a0",
+  "syncLinks": true,
+  "allowMSSyntax": true,
+  "msSyntaxIndented": true,
+  "livePreviewMS": true
 }

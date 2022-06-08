@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "546041c8db029a92",
+        "id": "6807eda78e66f974",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Get Started.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -71,7 +67,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Get Started.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -94,7 +89,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.28548580833378195,
+                  "scale": 0.2186038359901868,
                   "close": true
                 }
               }
@@ -104,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 247.5036334991455
   },
   "right": {
     "id": "68c91c329a5697a1",
@@ -122,17 +117,8 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "9da8299e40963721",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3f7ed5602b40f948",
@@ -145,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,19 +157,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 382.5,
+    "collapsed": true
   },
-  "active": "546041c8db029a92",
+  "active": "6807eda78e66f974",
   "lastOpenFiles": [
-    "Get Started.md",
-    "README.md",
-    "Notes/Untitled.md",
-    "Notes/Untitled 1.md",
+    "Notes/new book.md",
+    "Notes/test.md",
+    "Templates/Temporal/Daily.md",
+    "Journal/Daily/2022-04-25.md",
     "Utility/Plugins.md",
-    "Notes/Workbench Plugin.md",
-    "Notes/Typewriter Mode Plugin.md",
-    "Notes/Templater Plugin.md",
-    "Notes/Sliding panes Plugin.md",
-    "Notes/Review Plugin.md"
+    "Bins/Excalidraw/Drawing 2022-04-26 16.45.13.excalidraw.md",
+    "Journal/Annually/2022.md",
+    "Journal/Monthly/2022-04.md",
+    "Journal/Weekly/2022-W18.md",
+    "Templates/Temporal/Weekly.md"
   ]
 }
