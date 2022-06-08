@@ -12,7 +12,6 @@
   "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss",
   "useExcalidrawExtension": true,
   "displaySVGInPreview": true,
-  "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": false,
   "width": "700",
   "isLeftHanded": false,
@@ -20,7 +19,6 @@
   "matchThemeAlways": false,
   "matchThemeTrigger": false,
   "defaultMode": "normal",
-  "defaultPenMode": "never",
   "zoomToFitOnResize": true,
   "zoomToFitMaxLevel": 2,
   "linkPrefix": "📍",
@@ -50,7 +48,7 @@
   "experimentalLivePreview": true,
   "experimentalEnableFourthFont": false,
   "experimantalFourthFont": "Virgil",
-  "fieldSuggester": true,
+  "fieldSuggestor": true,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
   "library": "deprecated",
@@ -12666,6 +12664,8 @@
   "defaultTrayMode": true,
   "previousRelease": "1.6.33",
   "showReleaseNotes": true,
-  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",
-  "fieldSuggestor": true
+  "displayExportedImageIfAvailable": false,
+  "defaultPenMode": "never",
+  "fieldSuggester": true,
+  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js"
 }
