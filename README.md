@@ -6,7 +6,11 @@ some cool feature about Obsidian:
 - Local Storage
 - Using markdown and easily you can style your notes
 
-# ⚡️ Usage
+## :memo: Content
+- [Installation](#⚡️-Installation)
+- [Tagging](Utility/Tagging.md)
+
+## ⚡️ Installation
 - Download This repo and put it in a folder
 - Open Obsidian and open The folder as a vault in Obsidian
 

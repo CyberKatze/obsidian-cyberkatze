@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6807eda78e66f974",
+        "id": "d95b7424f9e1e0de",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Utility/Tagging.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Utility/Tagging.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -89,7 +94,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.2186038359901868,
+                  "scale": 0.28548580833378195,
                   "close": true
                 }
               }
@@ -99,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5036334991455
+    "width": 243.5
   },
   "right": {
     "id": "68c91c329a5697a1",
@@ -117,8 +122,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "9da8299e40963721",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3f7ed5602b40f948",
@@ -131,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Utility/Tagging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,20 +172,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5,
-    "collapsed": true
+    "width": 382.5
   },
-  "active": "6807eda78e66f974",
+  "active": "d95b7424f9e1e0de",
   "lastOpenFiles": [
-    "Notes/new book.md",
-    "Notes/test.md",
-    "Templates/Temporal/Daily.md",
-    "Journal/Daily/2022-04-25.md",
+    "Utility/Tagging.md",
+    "Templates/plugin.md",
+    "Notes/Untitled.md",
+    "README.md",
     "Utility/Plugins.md",
-    "Bins/Excalidraw/Drawing 2022-04-26 16.45.13.excalidraw.md",
-    "Journal/Annually/2022.md",
-    "Journal/Monthly/2022-04.md",
-    "Journal/Weekly/2022-W18.md",
-    "Templates/Temporal/Weekly.md"
+    "Notes/Advanced Tables Plugin.md",
+    "Notes/Better Word Count Plugin.md",
+    "Notes/Quick Switcher++ Plugin.md",
+    "Notes/Obsidian Vimrc Loader Plugin.md",
+    "Notes/Obsidian To Anki Plugin.md"
   ]
 }
