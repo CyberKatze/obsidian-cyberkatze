@@ -94,6 +94,7 @@
     --text-tag:                 #7a88cf;
     --text-error:               #ff98a4;
     --accent-color:             #7aa2f7;
+    --accent-color2:            #82aaff;
     --text-title-h1:              var(--neutral-red);
     --text-title-h2:              var(--bright-orange);
     --text-title-h3:              var(--bright-yellow);
@@ -440,7 +441,7 @@ svg.right-triangle{
 }
 
 .markdown-preview-view .token.macro {
-  color: #82aaff;
+  color: var(--accent-color2);
 }
 .cm-s-obsidian span.cm-variable,
 .cm-s-obsidian span.cm-hmd-codeblock span.cm-variable-2,
@@ -545,14 +546,14 @@ blockquote:before {
 .cm-s-obsidian input[type=checkbox].task-list-item-checkbox:focus,
 .markdown-preview-view ul > li.task-list-item input[type=checkbox]:focus {
   outline: none;
-  background-color: #82aaff !important;
+  background-color: var(--accent-color2) !important;
 }
 .cm-s-obsidian input[type=checkbox][data-task="x"].task-list-item-checkbox,
 .markdown-preview-view ul > li.task-list-item.is-checked input[type=checkbox] {
   background-position: center;
   background-size: 70%;
   background-repeat: no-repeat;
-  background-color: #82aaff !important;
+  background-color: var(--accent-color2) !important;
   background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23131421"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
 }
 
@@ -697,6 +698,24 @@ path.relation {
 
 /* }}} */
 
+/* Graph {{{ */
+ .graph-view.color-line{
+  color: var(--text-tag);
+} 
+.graph-view.color-fill {
+  color: var(--accent-color2);
+}
+graph-view.color-text {
+  color: rgba(200, 211, 245, 0.8);
+}
+.graph-view.color-fill-highlight {
+  color: #3e68d7;
+}
+.graph-view.color-line-hightlight {
+  color: #c3e88d;
+}
+
+/* }}} */
 
 
 .CodeMirror-linenumber {
@@ -931,4 +950,19 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 
 /* }}} */
 
+/* Plugins {{{ */
 
+/* Calenedar {{{ */
+#calendar-container {
+  --color-text-today: #c3e88d;
+  --color-text-weeknum: rgba(122, 136, 207, 0.8);
+  --color-arrow: #7a88cf;
+  --color-dot: rgba(195, 232, 141, 0.5);
+}
+#calendar-container .year {
+  color: #7a88cf;
+}
+
+/* }}} */
+
+/* }}} */

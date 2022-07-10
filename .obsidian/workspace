@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d95b7424f9e1e0de",
+        "id": "6c13c27d2bc2ec1d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Utility/Tagging.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -71,7 +67,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Utility/Tagging.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -104,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "68c91c329a5697a1",
@@ -122,17 +118,8 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "9da8299e40963721",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3f7ed5602b40f948",
@@ -145,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Utility/Tagging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,24 +153,24 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 318.5,
+    "collapsed": true
   },
-  "active": "d95b7424f9e1e0de",
+  "active": "6c13c27d2bc2ec1d",
   "lastOpenFiles": [
     "Utility/Tagging.md",
-    "Templates/plugin.md",
-    "Notes/Untitled.md",
-    "README.md",
-    "Utility/Plugins.md",
-    "Notes/Advanced Tables Plugin.md",
-    "Notes/Better Word Count Plugin.md",
-    "Notes/Quick Switcher++ Plugin.md",
-    "Notes/Obsidian Vimrc Loader Plugin.md",
-    "Notes/Obsidian To Anki Plugin.md"
+    "Bins/Excalidraw/draw1.excalidraw.md",
+    "Notes/example.md",
+    "Bins/Excalidraw/Drawing 2022-06-18 19.45.31.excalidraw.md",
+    "Media/Pasted image 20220419223618.png",
+    "Journal/Daily/2022-06-18.md",
+    "Journal/Daily/2022-06-20.md",
+    "Journal/Daily/2022-06-19.md",
+    "Notes/Templater Plugin.md",
+    "Notes/Sliding panes Plugin.md"
   ]
 }
