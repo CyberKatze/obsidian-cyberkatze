@@ -196,6 +196,9 @@
 
 /* Link {{{ 
 */
+.dataview a.internal-link:not([href$=".md"]){
+  opacity : 0.5;
+}
  .cm-formatting-link,
  .cm-link {
   color: var(--accent-color) !important;
