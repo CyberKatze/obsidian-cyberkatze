@@ -730,10 +730,15 @@ graph-view.color-text {
   color: var(--bright-orange) !important;
 }
 
-.cm-em,
-.cm-strong {
+.cm-em
+{
   color: var(--bright-blue);
 }
+strong,
+.cm-s-obsidian span.cm-strong {
+  color: var(--bright-orange);
+}
+
 
 
 /* }}} */
