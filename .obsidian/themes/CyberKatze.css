@@ -572,12 +572,12 @@ blockquote:before {
 .node polygon,
 rect.actor,
 .labelBox {
-  fill: #2f334d !important;
-  stroke: #444a73 !important;
+  fill: var(--interactive-hover) !important;
+  stroke: var(--interactive-accent) !important;
 }
 
 text.actor {
-  color: #c8d3f5;
+  color: var(--text-normal);
 }
 
 .loopLine {
@@ -720,6 +720,36 @@ graph-view.color-text {
 
 /* }}} */
 
+/* Table {{{ */
+.markdown-rendered table, 
+.markdown-preview-view table {
+  border: 3px solid var(--interactive-accent);
+}
+.markdown-rendered thead, 
+.markdown-preview-view thead {
+  border-bottom: 3px solid var(--interactive-accent);
+  color: var(--text-tag);
+}
+table.table-view-table > thead > tr > th {
+  border-bottom:none;
+
+}
+
+.markdown-rendered tbody, 
+.markdown-preview-view tbody {
+  color: var(--text);
+}
+.markdown-rendered th, 
+.markdown-preview-view th {
+  background-color: var(--dark1);
+}
+.markdown-rendered tr td:not(:last-child),
+.markdown-rendered tr th:not(:last-child), 
+.markdown-preview-view tr td:not(:last-child),
+.markdown-preview-view tr th:not(:last-child) {
+  border-right: 1px solid var(--interactive-hover);
+}
+/* }}} */
 
 .CodeMirror-linenumber {
   color: rgba(122, 136, 207, 0.5);
@@ -741,7 +771,10 @@ strong,
 .cm-s-obsidian span.cm-strong {
   color: var(--bright-orange);
 }
-
+.markdown-preview-view.markdown-rendered hr,
+hr{
+  border-color: rgba(122, 136, 207, 0.3);
+}
 
 
 /* }}} */
