@@ -973,4 +973,11 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 
 /* }}} */
 
+/* Sliding pane {{{ */
+body:not(.is-popout-window).plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf.mod-active > .workspace-leaf-content > div.view-header,
+body.plugin-sliding-panes .mod-root .workspace-leaf.mod-active .view-header{
+  border-right-color: var(--bright-blue);
+}
+/* }}} */
+
 /* }}} */
