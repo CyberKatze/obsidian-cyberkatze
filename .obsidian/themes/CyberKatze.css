@@ -350,7 +350,7 @@ svg.right-triangle{
 .cm-s-obsidian .hmd-fold-html kbd {
   font-family: var(--default-font);
 }
-.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight)
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight):not(:empty)
 {
   padding: 0.2em 0.4em;
   color: var(--neutral-red);
@@ -762,9 +762,8 @@ table.table-view-table > thead > tr > th {
 .CodeMirror-foldmarker {
   color: var(--bright-orange) !important;
 }
-
-.cm-em
-{
+em,
+.cm-s-obsidian span.cm-em {
   color: var(--bright-blue);
 }
 strong,
