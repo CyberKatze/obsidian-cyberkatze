@@ -38,30 +38,40 @@
   content: "◻ ARCHIVED";
 }
 
+.tag[href="#evergreen"],
+.tag[href="#fern"],
+.tag[href="#incubator"],
 .tag[href="#seedling"] {
   font-size: 0;
   padding: 0;
 }
-.tag[href="#seedling"]:after {
+.tag[href="#seedling"]:after,
+.tag[href="#incubator"]:after,
+.tag[href="#fern"]:after,
+.tag[href="#evergreen"]:after 
+{
   font-size: var(--font-tag-preview-size);
-  content: "🌱 SEEDLING";
   background-color: #131421;
   padding: 3px 8px;
   border-radius: inherit;
   font-weight: 900;
 }
 
- .markdown-preview-view a.tag[href="#evergreen"] {
-  font-size: 0;
-  padding: 0;
+.tag[href="#incubator"]:after {
+  content: "🎋 INCUBATOR";
+  color: #50c878;
+}
+.tag[href="#fern"]:after {
+  content: "🌿 FERN";
+  color: #32cd32;
+}
+.tag[href="#seedling"]:after {
+  content: "🌱 SEEDLING";
+  color: #66ff66;
 }
 .tag[href="#evergreen"]:after {
-  font-size: var(--font-tag-preview-size);
-  background-color: #131421;
-  padding: 3px 8px;
-  border-radius: inherit;
-  font-weight: 900;
   content: "🌲 EVERGREEN";
+  color: #00a86b;
 }
 .tag:hover:after{
   background-color: var(--background-secondary);
