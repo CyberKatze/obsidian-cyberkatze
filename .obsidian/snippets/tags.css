@@ -1,43 +1,24 @@
 
-.tag[href="#drafting"] {
-  font-size: 0;
-  padding: 0;
-}
-.tag[href="#drafting"]:after {
-  font-size: var(--font-tag-preview-size);
-  background-color: #131421;
-  border-radius: inherit;
-  font-weight: 900;
-  padding: 3px 8px;
-  content: "◩ DRAFTING";
-}
-
-.tag[href="#complete"] {
-  font-size: 0;
-  padding: 0;
-}
-.tag[href="#complete"]:after {
-  font-size: var(--font-tag-preview-size);
-  content: "◼ COMPLETE";
-  background-color: #131421;
-  border-radius: inherit;
-  font-weight: 900;
-  padding: 3px 8px;
-}
-
-.tag[href="#archived"] {
-  font-size: 0;
-  padding: 0;
-}
-.tag[href="#archived"]:after {
-  font-size: var(--font-tag-preview-size);
-  background-color: #131421;
-  padding: 3px 8px;
-  border-radius: inherit;
-  font-weight: 900;
-  content: "◻ ARCHIVED";
-}
-
+.tag[href="#article"],
+.tag[href="#course"],
+.tag[href="#blog"],
+.tag[href="#word"],
+.tag[href="#papaer"],
+.tag[href="#note"],
+.tag[href="#concept"],
+.tag[href="#utility"],
+.tag[href="#chapter"],
+.tag[href="#plugin"],
+.tag[href="#home"],
+.tag[href="#moc"],
+.tag[href="#youtube"],
+.tag[href="#person"],
+.tag[href="#video"],
+.tag[href="#book"],
+.tag[href="#backlog"],
+.tag[href="#archieved"],
+.tag[href="#completed"],
+.tag[href="#inprogress"],
 .tag[href="#evergreen"],
 .tag[href="#fern"],
 .tag[href="#incubator"],
@@ -45,6 +26,26 @@
   font-size: 0;
   padding: 0;
 }
+.tag[href="#article"]:after,
+.tag[href="#course"]:after,
+.tag[href="#blog"]:after,
+.tag[href="#word"]:after,
+.tag[href="#papaer"]:after,
+.tag[href="#note"]:after,
+.tag[href="#concept"]:after,
+.tag[href="#utility"]:after,
+.tag[href="#chapter"]:after,
+.tag[href="#plugin"]:after,
+.tag[href="#home"]:after,
+.tag[href="#moc"]:after,
+.tag[href="#youtube"]:after,
+.tag[href="#person"]:after,
+.tag[href="#video"]:after,
+.tag[href="#book"]:after,
+.tag[href="#backlog"]:after,
+.tag[href="#archieved"]:after,
+.tag[href="#completed"]:after,
+.tag[href="#inprogress"]:after,
 .tag[href="#seedling"]:after,
 .tag[href="#incubator"]:after,
 .tag[href="#fern"]:after,
@@ -56,7 +57,36 @@
   border-radius: inherit;
   font-weight: 900;
 }
+.tag[href="#backlog"]:after{
+  content: "⚪ BACKLOG";
+  color: #ffeeff;
+}
+.tag[href="#inprogress"]:after{
+  content: "🟠 INPROGRESS";
+  color: #fcae1e;
+}
+.tag[href="#completed"]:after{
+  content: "🟢 COMPLETED";
+  color: #66ff66;
+}
+.tag[href="#archieved"]:after{
+  content: "⚫ ARCHIEVED";
+  color: #777766;
+}
+.tag[href="#book"]:after{
+  content: "📚 BOOK";
+  color: #d2317c;
+}
+.tag[href="#note"]:after{
+  content: "📔 NOTE";
+  color: #f6f680;
+}
 
+.tag[href="#video"]:after,
+.tag[href="#youtube"]:after{
+  content: "🎥 VIDEO";
+  color: #23c6b4;
+}
 .tag[href="#incubator"]:after {
   content: "🎋 INCUBATOR";
   color: #50c878;
