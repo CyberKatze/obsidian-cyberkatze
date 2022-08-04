@@ -1,9 +1,11 @@
 
+.tag[href="#snippet"],
+.tag[href="#code"],
 .tag[href="#article"],
 .tag[href="#course"],
 .tag[href="#blog"],
 .tag[href="#word"],
-.tag[href="#papaer"],
+.tag[href="#paper"],
 .tag[href="#note"],
 .tag[href="#concept"],
 .tag[href="#utility"],
@@ -26,11 +28,13 @@
   font-size: 0;
   padding: 0;
 }
+.tag[href="#snippet"]:after,
+.tag[href="#code"]:after,
 .tag[href="#article"]:after,
 .tag[href="#course"]:after,
 .tag[href="#blog"]:after,
 .tag[href="#word"]:after,
-.tag[href="#papaer"]:after,
+.tag[href="#paper"]:after,
 .tag[href="#note"]:after,
 .tag[href="#concept"]:after,
 .tag[href="#utility"]:after,
@@ -73,18 +77,78 @@
   content: "⚫ ARCHIEVED";
   color: #777766;
 }
+.tag[href="#plugin"]:after{
+  content: " PLUGIN";
+  color: #aaaa99;
+}
+.tag[href="#utility"]:after{
+  content: " UTILITY";
+  color: #aaaa99;
+}
+.tag[href="#home"]:after{
+  content: " HOME";
+  color: #ee5544;
+}
 .tag[href="#book"]:after{
-  content: "📚 BOOK";
+  content: " BOOK";
   color: #d2317c;
 }
+.tag[href="#course"]:after{
+  content: " COURSE";
+  color: #ff317c;
+}
+.tag[href="#tutorial"]:after{
+  content: " TUTORIAL";
+  color: #ff317c;
+}
+.tag[href="#paper"]:after{
+  content: " PAPER";
+  color: #ffccee;
+}
+.tag[href="#article"]:after{
+  content: " ARTICLE";
+  color: #ffccee;
+}
+.tag[href="#blog"]:after{
+  content: "🕸 BLOG ";
+  color: #affcee;
+}
+.tag[href="#moc"]:after{
+  content: " MOC";
+  color: #a231fc;
+}
 .tag[href="#note"]:after{
-  content: "📔 NOTE";
+  content: " NOTE";
   color: #f6f680;
+}
+.tag[href="#chapter"]:after{
+  content: " CHAPTER";
+  color: #ffcf80;
+}
+.tag[href="#concept"]:after{
+  content: " CONCEPT";
+  color: #cfff90;
+}
+.tag[href="#word"]:after{
+  content: "🗨 WORD";
+  color: #cfff90;
+}
+.tag[href="#person"]:after{
+  content: " PERSON";
+  color: #ff00ff;
+}
+.tag[href="#snippet"]:after{
+  content: "✀ SNIPPET";
+  color: #ff55ff;
+}
+.tag[href="#code"]:after{
+  content: " CODE";
+  color: #22ffdf;
 }
 
 .tag[href="#video"]:after,
 .tag[href="#youtube"]:after{
-  content: "🎥 VIDEO";
+  content: "📽  VIDEO";
   color: #23c6b4;
 }
 .tag[href="#incubator"]:after {
