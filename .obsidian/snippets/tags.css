@@ -148,7 +148,7 @@
 
 .tag[href="#video"]:after,
 .tag[href="#youtube"]:after{
-  content: "📽  VIDEO";
+  content: "  VIDEO";
   color: #23c6b4;
 }
 .tag[href="#incubator"]:after {

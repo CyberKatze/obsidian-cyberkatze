@@ -985,6 +985,11 @@ body:not(.is-grabbing) .nav-folder-title:hover {
   content: "\f992";
   color: var(--bright-red);
 }
+/* Home File Icon */
+.nav-folder-children .nav-file .nav-file-title[data-path^="Utility/Home"] .nav-file-title-content:first-child::before{
+  content: "\f015";
+  color: var(--bright-red);
+}
 
 /* }}} */
 
