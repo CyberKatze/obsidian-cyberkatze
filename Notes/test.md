@@ -1,13 +1,38 @@
 ---
-tag: [concept, seedling]
+tag: [concept, seedling,evergreen]
 alias: tests
 ---
 
 # Code
 - `inline code`
+#seedling 
+#fern
+#incubator
+#evergreen
+#backlog
+#inprogress
+#completed
+#archieved
+#book
+#chapter
+#course
+#note
+#blog
+#word
+#snippet
+#code
+#video
+#person
+#moc
+#utility
+#home
+#plugin
+#paper #article
+#concept
+#Justatag
 
 ```go
-// This is some comment
+// This is a comment
 package main
 import "fmt"
 
@@ -18,20 +43,18 @@ func main(){
 }
 ```
 
+---
+
 $\int{1}{2}sin(x)$
+> **dfd** d *ddd*
 
 > This is the block qoute. some loerm bbbbbbbbbbbbbbb dfdfd ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-> 
->dfdf
->df
-
 
 - item 1
 - item 2
 	- nested
 	- ntested 2
 	- ntested 3
-
 1. hey
 2. second
 	1. one 
@@ -42,10 +65,11 @@ $\int{1}{2}sin(x)$
 		- s
 1. something 
 
-- [x] item 1
-- [x] item 2
+- [ ] item 1
+- [ ] item 2
 
 [[test]]
+
 
 ```mermaid
 graph TD
@@ -79,4 +103,18 @@ pie showData
     "Potassium" : 50.05
     "Magnesium" : 10.01
     "Iron" :  5
+```
+
+|     ID      | Docker Concepts (30) |              Project (60)               | Document(10) | Optional (30) | Total (100) |
+|:-----------:|:--------------------:|:---------------------------------------:|:------------:|:-------------:|:-----------:|
+| 40013161003 |          30          |                   60                    |      10      |       5       |     105     |
+| 40013184005 |          30          |                   60                    |      10      |       0       |     100     |
+| 40013161001 |          25          |                   60                    |      10      |       0       |     95      |
+| 40034358001 |          25          |                   50                    |      10      |       0       |     85      |
+| 9933161001  |          15          |                   50                    |      10      |       0       |     75      |
+| 40013161002 |          60          | - No Project, exam from Docker concepts |      -       |       -       |     60      |
+| 40013184002 |          25          |                   45                    |      10      |       0       |     80      |
+
+```dataview
+table Q
 ```

@@ -1,8 +1,10 @@
 {
-  "baseFontSize": 17,
+  "baseFontSize": 20,
   "cssTheme": "CyberKatze",
   "enabledCssSnippets": [
-    "font",
-    "tags"
-  ]
+    "tags",
+    "font"
+  ],
+  "accentColor": "",
+  "showViewHeader": true
 }

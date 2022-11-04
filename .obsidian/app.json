@@ -9,5 +9,6 @@
   "alwaysUpdateLinks": true,
   "tabSize": 2,
   "useTab": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "showInlineTitle": false
 }

@@ -7,8 +7,12 @@
         "id": "6c13c27d2bc2ec1d",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/test.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/test.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -132,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,14 +169,14 @@
   "active": "6c13c27d2bc2ec1d",
   "lastOpenFiles": [
     "Utility/Tagging.md",
+    "Notes/test.md",
+    "Utility/Plugins.md",
     "Bins/Excalidraw/draw1.excalidraw.md",
     "Notes/example.md",
     "Bins/Excalidraw/Drawing 2022-06-18 19.45.31.excalidraw.md",
     "Media/Pasted image 20220419223618.png",
     "Journal/Daily/2022-06-18.md",
     "Journal/Daily/2022-06-20.md",
-    "Journal/Daily/2022-06-19.md",
-    "Notes/Templater Plugin.md",
-    "Notes/Sliding panes Plugin.md"
+    "Journal/Daily/2022-06-19.md"
   ]
 }

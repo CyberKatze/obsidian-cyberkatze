@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "aba8008c0875e86b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b478a54ed8cd55c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c13c27d2bc2ec1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/test.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "141d87c9ca7ad169",
+    "type": "split",
+    "children": [
+      {
+        "id": "aafbd24a8daacc5d",
+        "type": "tabs",
+        "dimension": 62.34042553191489,
+        "children": [
+          {
+            "id": "2d489bd1f8782e4e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b9fa1994e789f56e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "24e301fbeff034c5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "2a49fc8a921dc6b6",
+        "type": "tabs",
+        "dimension": 37.659574468085104,
+        "children": [
+          {
+            "id": "eb43068898edb177",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Notes/test.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.28548580833378195,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "68c91c329a5697a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "334065e48ef6fa05",
+        "type": "tabs",
+        "dimension": 52.32067510548522,
+        "children": [
+          {
+            "id": "7caf5699e4fbf3fd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "3f7ed5602b40f948",
+        "type": "tabs",
+        "dimension": 47.67932489451478,
+        "children": [
+          {
+            "id": "373b79f349f1428c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57ce4317fa2b249e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5,
+    "collapsed": true
+  },
+  "active": "6c13c27d2bc2ec1d",
+  "lastOpenFiles": [
+    "Notes/plug.md",
+    "Notes/test.md",
+    "Templates/plugin.md",
+    "Utility/Tagging.md",
+    "Utility/Plugins.md",
+    "Bins/Excalidraw/draw1.excalidraw.md",
+    "Notes/example.md",
+    "Bins/Excalidraw/Drawing 2022-06-18 19.45.31.excalidraw.md",
+    "Media/Pasted image 20220419223618.png",
+    "Journal/Daily/2022-06-18.md"
+  ]
+}

@@ -6,17 +6,17 @@
   "templater-obsidian",
   "better-word-count",
   "obsidian-admonition",
-  "sliding-panes-obsidian",
   "oz-image-plugin",
   "obsidian-discordrpc",
   "obsidian-to-anki-plugin",
   "media-extended",
-  "obsidian-annotator",
   "dataview",
   "periodic-notes",
   "obsidian-zotero-desktop-connector",
   "darlal-switcher-plus",
   "obsidian-reading-time",
   "nldates-obsidian",
-  "review-obsidian"
+  "review-obsidian",
+  "convert-url-to-iframe",
+  "note-refactor-obsidian"
 ]
