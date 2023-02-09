@@ -8,4 +8,4 @@ tags:
 - hotkeys for table traversing with `tab`, `⇧tab`, and `¬`
 
 ### Tags:
-[[Plugins]]
+[[Plugins]][]()

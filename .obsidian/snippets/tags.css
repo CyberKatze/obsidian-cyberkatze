@@ -24,7 +24,9 @@
 .tag[href="#evergreen"],
 .tag[href="#fern"],
 .tag[href="#incubator"],
-.tag[href="#seedling"] {
+.tag[href="#seedling"],
+.tag[href="#seedbox"]
+{
   font-size: 0;
   padding: 0;
 }
@@ -48,12 +50,12 @@
 .tag[href="#book"]:after,
 .tag[href="#backlog"]:after,
 .tag[href="#archieved"]:after,
-.tag[href="#completed"]:after,
-.tag[href="#inprogress"]:after,
+.tag[href="#completed"]:after, .tag[href="#inprogress"]:after,
 .tag[href="#seedling"]:after,
 .tag[href="#incubator"]:after,
 .tag[href="#fern"]:after,
-.tag[href="#evergreen"]:after 
+.tag[href="#evergreen"]:after,
+.tag[href="#seedbox"]:after 
 {
   font-size: var(--font-tag-preview-size);
   background-color: #131421;
@@ -166,6 +168,11 @@
 .tag[href="#evergreen"]:after {
   content: "🌲 EVERGREEN";
   color: #00a86b;
+}
+
+.tag[href="#seedbox"]:after {
+  content: "📥 SEEDBOX";
+  color: #ff886b;
 }
 .tag:hover:after{
   background-color: var(--background-secondary);

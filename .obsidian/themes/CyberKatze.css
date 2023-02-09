@@ -287,6 +287,19 @@ a.tag,
   width: 1em;
   margin-left: -1em;
 }
+.markdown-preview-view ul li:not(.task-list-item) .list-bullet:after {
+  background-color: var(--bright-orange);
+  width:0px;
+}
+span.list-bullet:after {
+  background: none;
+  content: "•";
+  color: var(--bright-orange);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-top: -1em;
+}
 ::marker {
   color: var(--bright-orange);
 }
@@ -309,7 +322,9 @@ svg.right-triangle{
 
 .frontmatter-container {
   background-color: var(--dark2);
-  border: none;
+  border: 1px solid var(--dark3);
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
 }
 .frontmatter-container .frontmatter-collapse-indicator {
   color: var(--text-tag);
@@ -526,6 +541,9 @@ blockquote:before {
   margin-right: 5px;
   margin-left: -27px;
 }
+input[type=checkbox]:checked:after{
+ background: none;
+}
 .cm-s-obsidian input[type=checkbox].task-list-item-checkbox,
 .markdown-preview-view ul > li.task-list-item input[type=checkbox] {
   appearance: none;
@@ -693,10 +711,6 @@ path.relation {
   stroke: rgba(255, 199, 119, 0.75) !important;
 }
 
-.workspace-leaf-content[data-mode="source"] svg[id^="m"][width][height][viewBox] {
-    width: 100%;
-    height: auto;
-}
 
 
 /* }}} */
@@ -780,10 +794,6 @@ hr{
 
 /* Worksapce ribbon, Status-bar, workspace-leaf {{{ */
 
-.status-bar,
-.workspace-split{
-  border-right: 1px solid var(--background-secondary-alt);
-}
 
 .workspace-ribbon.mod-right.is-collapsed {
   border-left: none;
@@ -793,7 +803,7 @@ hr{
   background-color: var(--background-secondary-alt);
   line-height: 30px;
   max-height: 30px;
-  padding: 0px 20px;
+  padding: 0 20px;
 
 }
 
@@ -845,7 +855,11 @@ height: 5px;
 
 .workspace-tab-header {
   background-color: transparent;
-  border-radius: 10px !important;
+  border-radius: 5px !important;
+  border-left: 2px solid var(--background-secondary);
+}
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header.is-active{
+  border-left: 2px solid var(--text-accent);
 }
 
 .workspace-tab-header-inner {

@@ -7,23 +7,9 @@
       "key": "T"
     }
   ],
-  "editor:focus-left": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
+  "editor:focus-left": [],
   "editor:open-search-replace": [],
-  "editor:focus-right": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
+  "editor:focus-right": [],
   "obsidian-excalidraw-plugin:excalidraw-autocreate": [
     {
       "modifiers": [
@@ -81,6 +67,23 @@
         "Mod"
       ],
       "key": "M"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
     }
   ]
 }

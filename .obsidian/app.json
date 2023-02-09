@@ -10,5 +10,6 @@
   "tabSize": 2,
   "useTab": true,
   "showLineNumber": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "showFrontmatter": true
 }
